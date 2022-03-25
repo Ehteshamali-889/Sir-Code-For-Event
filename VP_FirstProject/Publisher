@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VP_FirstProject
+{
+    public class StudentData : EventArgs
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public bool IsSuccessful { get; set; }
+        public DateTime CompletionTime { get; set; }
+    }
+
+    public class Publisher
+    {
+        public event EventHandler<StudentData> ProcessCompleted; // event
+
+        public void StartProcess()
+        {
+            Console.WriteLine("Process Started!");
+            // some code here..
+
+            StudentData studentData = new StudentData();
+
+            studentData.Name = "asif";
+            studentData.Age = 1;
+            studentData.IsSuccessful = true;
+            studentData.CompletionTime = DateTime.Now;
+
+            OnProcessCompleted(this, studentData);
+        }
+
+        protected virtual void OnProcessCompleted(object abc, StudentData test) //protected virtual method
+        {
+            //if ProcessCompleted is not null then call delegate
+            ProcessCompleted?.Invoke(abc, test);
+        }
+    }
+}
