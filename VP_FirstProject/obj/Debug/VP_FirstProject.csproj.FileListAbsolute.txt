@@ -1,0 +1,16 @@
+C:\Users\Malik\source\repos\VP_FirstProject\bin\Debug\VP_FirstProject.exe.config
+C:\Users\Malik\source\repos\VP_FirstProject\bin\Debug\VP_FirstProject.exe
+C:\Users\Malik\source\repos\VP_FirstProject\bin\Debug\VP_FirstProject.pdb
+C:\Users\Malik\source\repos\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Malik\source\repos\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\VP_FirstProject\obj\Debug\VP_FirstProject.exe
+C:\Users\Malik\source\repos\VP_FirstProject\obj\Debug\VP_FirstProject.pdb
+C:\Users\Malik\source\repos\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\obj\Debug\VP_FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\obj\Debug\VP_FirstProject.exe
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\obj\Debug\VP_FirstProject.pdb
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\bin\Debug\VP_FirstProject.exe.config
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\bin\Debug\VP_FirstProject.exe
+C:\Users\Dell\Documents\7th semester\VP\VP_FirstProject\bin\Debug\VP_FirstProject.pdb
