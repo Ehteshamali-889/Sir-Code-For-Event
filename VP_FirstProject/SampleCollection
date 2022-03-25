@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VP_FirstProject
+{
+    class SampleCollection<T>
+    {
+        // Declare an array to store the data elements.
+        private T[] arr = new T[100];
+
+        // Define the indexer to allow client code to use [] notation.
+        public T this[int i]
+        {
+            get { return arr[i]; }
+            set { arr[i] = value; }
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            SampleCollection<StudentData> stringCollection = new SampleCollection<StudentData>();
+
+            stringCollection[0] = new StudentData() { Name = "asif", Age = 9, IsSuccessful = true };
+
+
+            Console.WriteLine(stringCollection[0].Age);
+        }
+    }
+
+}
